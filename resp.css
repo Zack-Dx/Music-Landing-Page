@@ -1,0 +1,57 @@
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+    padding: 20px;
+  }
+  .container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .pic,
+  .box {
+    width: auto;
+  }
+  .pic img {
+    display: none;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Tab Responsive */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .pic {
+    width: auto;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Desktop Responsive */
+@media (min-width: 1024px) and (max-width: 1281px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic {
+    width: auto;
+  }
+}
