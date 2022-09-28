@@ -63,7 +63,7 @@ body {
 
 .container {
   height: 100vh;
-  background: rgb(12 6 101 / 98%);
+  background: #0a183d;
   display: flex;
   width: 100%;
   justify-content: center;
