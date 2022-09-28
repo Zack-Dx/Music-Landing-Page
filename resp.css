@@ -4,9 +4,7 @@
   .navbar {
     width: 100%;
     height: auto;
-    /* gap: 1rem; */
     padding: 20px;
-    flex-direction: column;
   }
   .navigation ul li {
     padding: 8px;

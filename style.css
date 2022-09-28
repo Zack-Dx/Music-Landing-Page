@@ -13,11 +13,18 @@ body {
 /* Navbar */
 .navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 90px;
+  height: 100px;
   background: rgb(7 7 54);
   color: white;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 .navbar ul {
   display: flex;
@@ -42,6 +49,7 @@ body {
   color: white;
   cursor: pointer;
 }
+
 /* Logo */
 .logo span {
   font-size: 0.8rem;
