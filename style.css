@@ -100,3 +100,19 @@ body {
 #trialbtn {
   background-color: gray;
 }
+
+/* Burger */
+
+.burger {
+  position: absolute;
+  top: 6px;
+  display: none;
+  right: 5%;
+}
+.line {
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+  width: 33px;
+  margin: 5px;
+}

@@ -3,13 +3,14 @@
 @media (max-width: 768px) {
   .navbar {
     width: 100%;
-    flex-wrap: wrap;
     height: auto;
-    gap: 1rem;
+    /* gap: 1rem; */
     padding: 20px;
+    flex-direction: column;
   }
-  .navbar ul li {
+  .navigation ul li {
     padding: 8px;
+    text-align: center;
   }
   .container {
     flex-direction: column;
@@ -26,6 +27,25 @@
   .buttons {
     display: flex;
     flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+
+  .navigation ul {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
+  .btn,
+  .logo {
+    margin: 10px;
   }
 }
 
