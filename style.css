@@ -92,6 +92,7 @@ body {
 }
 .pic img {
   height: 550px;
+  filter: drop-shadow(1rem 1rem 1rem  black);
 }
 /* Buttons */
 .music {
